@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -141,11 +141,9 @@ button:hover {
 }
 
 #svg-container {
+  display: flex;
+  justify-content: flex-start;
   margin-top: 32px;
   border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #F7F7F7;
   overflow: hidden; /* Para manter tudo dentro do container */
 }
